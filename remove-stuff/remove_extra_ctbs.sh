@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# REMOVES ALL .CTB FILES IN YOUR HOME DIRECTORY, RECURSIVELY
-# .CTB IS A POPULAR FORMAT USED IN CHERRYTREE
+# REMOVES ALL HIDDEN .CTB~ FILES IN YOUR HOME DIRECTORY, RECURSIVELY
+
+# .ctb is a format used in cherrytree
+# hidden .ctb~ files are used for backups
 
 marked_files=()
 
